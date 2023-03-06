@@ -1,0 +1,47 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.main-container {
+     background-color:black;
+    height:60px;
+    text-align:center;
+    padding:20px;
+    
+
+}
+.drop-container {
+    display:inline;
+    position:relative;
+}
+.drop-content {
+    position:absolute;
+    top:25px;
+    right: 0px;
+    width:120px;
+    text-align:left;
+    display:none;
+    background-color: black;
+    padding:10px;
+}
+.drop-container:hover .drop-content {
+    display:block;
+}
+.drop-content a {
+    display:block;
+    text-align: left;
+    margin:10px 0px;
+   
+}
+.drop-content a:hover {
+ background-color: aliceblue; 
+}
+.main-container a {
+    text-decoration:none;
+    padding:10px 30px;
+    font-size:1.2rem;
+    color:rgb(34, 14, 216);
+   
+    
+}
